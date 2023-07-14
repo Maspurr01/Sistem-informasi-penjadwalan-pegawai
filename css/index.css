@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 12% 0.5rem 10%;
+  background-color: rgb(252, 252, 252);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+  position: fixed;
+  height: 12vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+header .logo {
+  display: flex;
+}
+
+header .logo img {
+  width: 2.5rem;
+  height: 3rem;
+  margin: auto;
+}
+
+header .logo .logo-text {
+  padding: 0.1rem 0 0 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header .logo .logo-text #satu {
+  font-size: 26px;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+}
+
+header .logo .logo-text a {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 0.9rem;
+  font-family: "Oswald", sans-serif;
+  margin-top: -0.4rem;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+.navbar li {
+  float: left;
+  list-style-type: none;
+}
+
+.navbar li a {
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #ddd;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.submenu li {
+  float: none;
+}
+
+.navbar li:hover .submenu {
+  display: block;
+}
+
+/* Isi Beranda */
+
+.beranda {
+  padding: 15vh 19% 0 19%;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/img/kantor.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Bayangan bawah */
+}
+
+.beranda img {
+  width: 17%;
+  height: 29%;
+  margin-bottom: 6vh;
+}
+
+.beranda h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.4rem;
+  text-align: center;
+  color: white;
+}
+
+.beranda h2 {
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  color: white;
+}
+
+/* Visi misi */
+
+.visi-misi {
+  padding: 18vh 19% 3rem 19%;
+}
+
+.visi-misi h2 {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.visi-misi .row {
+  padding: 2rem;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.651);
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: -5%;
+}
+
+.visi {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.visi-misi img {
+  width: 50%;
+  height: 86%;
+  margin: 5%;
+}
+
+.visi-misi .row h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1rem;
+}
+
+.visi-misi .row p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Kontak */
+
+.contact {
+  padding: 3rem 7% 1.4rem;
+  margin: 5%;
+}
+.contact .row {
+  display: flex;
+}
+
+.contact .row .map {
+  flex: 1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contact .row .alamat {
+  flex: 1 1 45rem;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.alamat h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.alamat p {
+  font-size: 18px;
+  color: #555555;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+

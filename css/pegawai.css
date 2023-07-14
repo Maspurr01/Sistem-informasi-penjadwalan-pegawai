@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* struktur */
+  .struktur {
+      padding:2rem 8% 1.4rem;
+    }
+    .struktur h2{
+      text-align: center;
+      font-size: 2.6rem;
+      margin-bottom: 1rem;
+      margin-top: 10%;
+      font-family: "Oswald", sans-serif;
+
+    }
+
+    .struktur p {
+      text-align: center;
+      margin-bottom: 10%;
+      font-family: "Oswald", sans-serif;
+
+    }
+    .struktur .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: -2rem;
+      justify-content: center;
+  
+    }.struktur .row .struktur-card {
+      text-align: center;
+      padding: 1rem;
+      width: 30%;
+      height: 20%;
+      margin: %;
+    }
+    .struktur .row .struktur-card img {
+      border-radius: 50%;
+      width: 50%;
+      height: 50%
+    }
+    .struktur .row .struktur-card .struktur-card-nama {
+      margin: 1rem auto 0.5rem;
+    }
+    .struktur .roww {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+      justify-content: center;
+  
+    }
+    .struktur .roww .struktur-card {
+      text-align: center;
+      padding-bottom: 2rem;
+      width: 40%;
+      height: 20%;
+      margin-bottom: 5%;
+    }
+    .struktur .roww .struktur-card img {
+      border-radius: 50%;
+      width: 50%;
+      height: 50%
+    }
+    .struktur .roww .struktur-card .struktur-card-jabatan {
+      margin: 1rem auto 0.5rem;
+    }
+    /* struktur End */
